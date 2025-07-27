@@ -23,3 +23,6 @@ The simulation sequence starts by enabling the write operation (we=1) and writin
 
 To run this design in EDA Playground, both ram.v (RAM module) and tb_ram.v (testbench) files must be created. Once the code is pasted and executed, the output can be viewed in the EPWave waveform viewer. The waveform visually confirms the read and write processes, showing how data is stored during we=1 and correctly retrieved during we=0. This project demonstrates the basic design and verification of a synchronous RAM using Verilog, making it an essential foundation for more complex memory design tasks.
 OUTPUT:
+<img width="1149" height="557" alt="Image" src="https://github.com/user-attachments/assets/197e5221-35a1-4a8a-8749-1e6aa8a44e41" />
+
+<img width="1334" height="676" alt="Image" src="https://github.com/user-attachments/assets/6650af5e-7818-44ae-aa06-8727ee492702" />
