@@ -2,7 +2,7 @@
 
 COMPANY :CODTECH IT SOLUTIONS
 
-NAME :KEERTHIS VIVIN V
+NAME :KEERTHIS VIVINV
 
 INTERN ID :CT04DH977
 
@@ -13,7 +13,7 @@ DURATION: 4 WEEKS
 MENTOR : NEELA SANTOSH
 
 DISCRIPTION:
- ram1 is verilog and ram2 is testbench program
+ ram1 is verilog and ram2 is testbench program in EDA playground stimulation tool
 
 The given Verilog code implements a simple synchronous RAM and its testbench to demonstrate read and write operations. The RAM module, named simple_ram, is designed as a 16 x 8-bit memory, meaning it has 16 memory locations, each capable of storing 8-bit data. It takes a clock signal (clk), a write enable signal (we), a 4-bit address (addr), and an 8-bit input data (data_in). The output data_out provides the data stored at the specified address during a read operation. The memory is declared as reg [7:0] mem [0:15]. The module uses an always @(posedge clk) block to ensure that both read and write operations are synchronized with the rising edge of the clock. If we is set to 1, the data on data_in is written to the memory location specified by addr. When we is 0, the data stored in the selected memory location is output through data_out.
 
